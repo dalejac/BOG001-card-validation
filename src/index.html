@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>Monsters Univerity</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+ <!-- Aquí empieza la ventana -->
+ <div id='caja' class="container" >
+        
+  <!-- Mensaje de bienvenida con el logo -->
+  <div class="header">
+      <img src="logo.png" alt="logo"/>  
+      
+      <h1> Bienvenid@ a la página de incripción de 
+          <br>
+          
+          <div id="monstersUniversity">
+              MONSTERS UNIVERSITY 
+          </div> 
+          
+      donde podrás convertirte en el mejor asustador de todos!!</h1>
+
+       <!-- Obtención de datos del usuario -->
+    <form class="formulario">
+        <label for="usuario">Nombre:</label>
+        <input type="text" name="nombre_usuario" id="usuario">
+        <p>
+            Programa:
+            <select name="programa">
+                <option>- Selecciona el programa</option>
+                <option>Programa de Sustos</option>
+                <option>Matrícula de Horror</option>
+                <option>Master de Terror</option>
+            </select>
+        </p>
+    </form>
+
+        <button type='button' id='continuar'class='btn' onclick=continuarPago() style='border-radius:10px'>Continuar</button>
+    </div>
+    </div>
+
+    <div id='caja-2' class="container-Validación">
+
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>

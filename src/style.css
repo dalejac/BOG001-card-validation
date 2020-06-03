@@ -1,0 +1,78 @@
+html { 
+    background: url(fondo.png) repeat center center fixed; 
+  }
+
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.header h1 {
+  position: relative;
+  top: 1.5pc;
+  left: 10px;
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Amatic SC'; 
+  font-size: 20px;
+
+}
+
+#monstersUniversity {
+    font-family: 'Bungee Shade';
+    font-size: 18px; 
+
+}
+
+.container{
+    width: 35%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /*overflow: auto;*/
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: solid black;
+    background-color:white;
+  }
+
+/* Estilo del boton Continuar */
+.btn {
+/* Centrar el boton */
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 40%;
+
+/* Tipo y tamaño de letra */
+    font-size: small;
+    font-weight: bold;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    border-color: rgb(30, 122, 184); 
+}
+
+/* Estilo del formulario */
+form {
+/* Centrar formulario y dar separar entre los campos de info */
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC'; 
+    font-weight: bolder;
+}
+
+
