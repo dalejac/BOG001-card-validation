@@ -1,53 +1,116 @@
 <!DOCTYPE html>
-<html>
-  <head>
-
+<html >
+<head>
+    
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Monsters Univerity</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
- <!-- Aquí empieza la ventana -->
- <div id='caja' class="container" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Monsters University </title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+
+    <!-- Aquí empieza la ventana de Bienvenida -->
+    <div id="ventana1" class="container" >
         
-  <!-- Mensaje de bienvenida con el logo -->
-  <div class="header">
-      <img src="logo.png" alt="logo"/>  
-      
-      <h1> Bienvenid@ a la página de incripción de 
-          <br>
-          
-          <div id="monstersUniversity">
-              MONSTERS UNIVERSITY PRUEBA
-          </div> 
-          
-      donde podrás convertirte en el mejor asustador de todos!!</h1>
+        <!-- Mensaje de bienvenida con el logo -->
+        <div id="Bienvenida" class="header" >
+            <img src="logo.png" alt="logo"/>  
+            
+            <h1> Bienvenid@ a la página de inscripción de 
+                <br>
+                <div id="monstersUniversity">
+                    MONSTERS UNIVERSITY 
+                </div> 
+            ¡Donde podrás convertirte en el mejor asustador de todos!</h1>
+            <br>
+            <br>
+            <br>
+        </div>
+        <!-- Mensaje de bienvenida con el logo -->
+        
+        
+        
+        <!-- Obtención de datos del usuario -->
+        <form class="formulario">
+            <label for="usuario">Nombre:</label>
+            <input type="text" name="nombre_usuario" id="usuario">
+            <p>
+                Programa:
+                <select name="programa">
+                    <option>- Selecciona el programa</option>
+                    <option>Programa de Sustos</option>
+                    <option>Matrícula de Horror</option>
+                    <option>Master de Terror</option>
+                </select>
+            </p>
+        </form>
+        <!-- Obtención de datos del usuario -->
 
-       <!-- Obtención de datos del usuario -->
-    <form class="formulario">
-        <label for="usuario">Nombre:</label>
-        <input type="text" name="nombre_usuario" id="usuario">
-        <p>
-            Programa:
-            <select name="programa">
-                <option>- Selecciona el programa</option>
-                <option>Programa de Sustos</option>
-                <option>Matrícula de Horror</option>
-                <option>Master de Terror</option>
-            </select>
-        </p>
-    </form>
+        <br>
+        
+        <button type='button' id='continuar'class='btn' onclick=continuarPago()> Inscribirse</button>
+    </div>    
 
-        <button type='button' id='continuar'class='btn' onclick=continuarPago() style='border-radius:10px'>Continuar</button>
+
+
+
+    <!-- Aquí empieza la segunda ventana -->
+    <div class="container" id="ventana2" style="display: none">
+        
+        <!-- Mensaje y logo -->
+        <div class="header">
+            <img src="logo.png" alt="logo"/>  
+            
+            <h1>Introduce el número de tu tarjeta de crédito para validarlo:</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Campo para introducir el número de tarjeta-->
+        
+        <form class="validationForm" name="form2">
+            <input type="number" name="tarjetaNum" id="inputNumber">
+        </form>
+    
+        <br>
+        <br>
+        <br>            
+        <!-- Botón para validación-->
+        
+        </div>    
     </div>
-    </div>
+    <!-- Aquí termina la segunda ventana -->
 
-    <div id='caja-2' class="container-Validación">
 
+    <!-- Aquí empieza la tercera ventana -->
+    <div class="container" id="ventana3" style="display: none">
+            
+        <!-- Mensaje y logo -->
+        <div class="header">
+            <img src="logo.png" alt="logo"/>  
+            
+            <h1> ¡Validación exitosa! </h1>        
+        
+        </div>
+        <!-- Mensaje y logo -->
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <!-- Aquí termina la segunda ventana -->
+
+
+
+        
+
+    
+       
+
+
+    <script src="index.js" type="module"> </script>
+    
+</body>
 </html>
