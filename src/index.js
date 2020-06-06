@@ -4,11 +4,11 @@ function continuarPago() {
 }
 
 
-function continuarPago2(cardNum)
-{
+function continuarPago2() {
+    var x=document.getElementById("inputNumber");
     var numbers = /^[0-9]+$/;
     
-    if(cardNum.value.match(numbers)){
+    if(x.value.match(numbers)){
         document.getElementById("ventana2").style.display="none";
         document.getElementById("ventana3").style.display="block";
     }else{
@@ -18,9 +18,10 @@ function continuarPago2(cardNum)
     
 }
 
-import validator from './validator.js';
-
-console.log(validator);
 
 
+   
+    
+    
+    
 
