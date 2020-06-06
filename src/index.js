@@ -18,5 +18,9 @@ function continuarPago2(cardNum)
     
 }
 
+import validator from './validator.js';
+
+console.log(validator);
+
 
 
