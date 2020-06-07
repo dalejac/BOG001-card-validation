@@ -5,33 +5,24 @@
         <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
         <title>Monsters University</title>
         <link rel="stylesheet" href="style.css">
         
     </head>
     <body>
-        
         <!-- Aquí empieza la ventana de Bienvenida -->
-        <div id='ventana1' class="container" >
-            
-            <!-- Mensaje de bienvenida con el logo -->
-            <div id="Bienvenida" class="header">
-                <img src="logo.png" alt="logo"/>  
-                
-                <h1> Bienvenid@ a la página de incripción de 
-                    <br>
-                    <div id="monstersUniversity">
-                        MONSTERS UNIVERSITY
-                    </div> 
-                    
-                    ¡Donde podrás convertirte en el mejor asustador de todos!</h1>
-                    <br>
-                    <br>
-                    
-                
-                
-                <!-- Obtención de datos del usuario -->
+        <section id='ventana1' class="container" >
+            <header id="Bienvenida" class="header1"> <!-- Mensaje de bienvenida con el logo -->
+                <img src="logo.png" alt="logo"/>
+                <h1> Bienvenid@ a la página de incripción de<br>
+                    <span id="monstersUniversity">MONSTERS UNIVERSITY</span><br>
+                    ¡Donde podrás convertirte en el mejor asustador de todos!
+                </h1>
+                <br>
+                <br>
+            </header>
+
+            <main> <!-- Obtención de datos del usuario -->
                 <form class="formulario">
                     <label for="usuario">Nombre:</label>
                     <input type="text" name="nombre_usuario" id="usuario">
@@ -45,68 +36,66 @@
                         </select>
                     </p>
                 </form>
-
-                <br>
-                
+                <br>                
                 <button type='button' id='continuar'class='btn' onclick=continuarPago()> Inscribirse</button>
-            </div>
+            </main>
+            <footer>
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
+                <br>
+                Reservados todos los derechos, Disney Entertainment
+                <br>
+                Monsters Inc Company
+            </footer>
+        </section><!-- Aquí termina la ventana de Bienvenida -->
             
-            
-        </div>
-        <!-- Aquí termina la ventana de Bienvenida -->
-
-
-
-        
-        
-        
-        
         
         <!-- Aquí empieza la segunda ventana -->
-        <div id='ventana2' class="container" style="display: none">
-            
-            <!-- Mensaje de bienvenida con el logo -->
-            <div class="header">
+        <section id='ventana2' class="container" style="display: none">
+            <header class="header2">
                 <img src="logo.png" alt="logo"/>  
-                <h1>Introduce el número de tu tarjeta 
-                    
-                    
-                    de crédito para validarlo:</h1>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <!-- Campo para introducir el número de tarjeta-->
-           <form class="validationForm" name="form2">
-                <input type="number" name="tarjetaCredito" id="inputNumber">
-           </form>
-            <br>
-            <br>
-            <br>
-           
-            <!-- Botón para validación-->
-            <button type='button' id='validationButton' class='btn' onclick=continuarPago2()>Validar</button>
-            
-        </div>
-        <!-- Aquí terminas la segunda ventana -->
+                <h1>Introduce el número de tu tarjeta de crédito para validarlo:</h1>
+            </header>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            <main>
+                <form class="validationForm" name="form2">
+                    <input type="number" name="tarjetaCredito" id="inputNumber"><!-- Campo para introducir el número de tarjeta-->
+               </form>
+                <br>
+                <br>
+                <br>
+                <!-- Botón para validación-->
+                <button type='button' id='validationButton' class='btn' onclick=continuarPago2()>Validar</button>
+            </main>
+            <footer>
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
+                <br>
+                Reservados todos los derechos, Disney Entertainment
+                <br>
+                Monsters Inc Company
+            </footer>
+             
+        </section><!-- Aquí terminas la segunda ventana -->
 
 
 
         <!-- Aquí empieza la tercera ventana -->
-        <div id='ventana3' class="container" style="display: none">
-                
-            <!-- Mensaje y logo -->
-            <div class="header2">
+        <section id='ventana3' class="container" style="display: none">           
+            <header class="header3"><!-- Mensaje y logo -->
                 <img src="logo.png" alt="logo"/>  
-                
-                <h1> ¡Validación exitosa! </h1>        
-            
-            </div>
-            <!-- Mensaje y logo -->
-        </div>
-        <!-- Aquí termina la segunda ventana -->
+                <h1> ¡Validación exitosa! </h1>          
+            </header>
+            <footer>
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
+                <br>
+                Reservados todos los derechos, Disney Entertainment
+                <br>
+                Monsters Inc Company
+            </footer>
+        </section><!-- Aquí termina la segunda ventana -->
 
     
     
