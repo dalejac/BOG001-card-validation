@@ -1,78 +1,89 @@
 html { 
-    background: url(fondo.png) repeat center center fixed; 
-  }
+  background: url(fondo.png) repeat center center fixed; 
+}
 
+html:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.5);
+}
 
-.header img {
+section {
+  width: 35%;
+  height: 85%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  border: solid black;
+  background-color:white;
+  border-radius: 50px;
+  flex: 100%;
+}
+
+header img {
   float: left;
   width: 100px;
   height: 100px;
   background: #555;
-  margin-left: 50px;
-  margin-top: 10px;
 }
 
-.header h1 {
-  position: relative;
+header {
+  /* position: center;
   top: 1.5pc;
-  left: 10px;
-  margin-right: 50px;
-  margin-top: 50px;
+  left: 10px; */
+  padding: 35pt 20pt 0pt 20pt;
   text-align: center;
   font-family: 'Amatic SC'; 
   font-size: 20px;
-
 }
 
-#monstersUniversity {
-    font-family: 'Bungee Shade';
-    font-size: 18px; 
-
+.monstersUniversity {
+  font-family: 'Bungee Shade';
+  position: center;
+  font-size: 23px;
 }
 
-.container{
-    width: 35%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    /*overflow: auto;*/
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    border: solid black;
-    background-color:white;
-  }
-
-/* Estilo del boton Continuar */
-.btn {
-/* Centrar el boton */
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    left: 40%;
-
-/* Tipo y tamaño de letra */
-    font-size: small;
-    font-weight: bold;
-    padding: 5px 10px;
-    justify-content: center;
-    align-items: center;
+main {
+  text-align: center;
+  margin: auto;
+  padding: 10pt;
+  font-family: 'Amatic SC'; 
 }
 
-.btn:hover {
-    border-color: rgb(30, 122, 184); 
+main h1, h2, p, form {
+  font-size: 18pt;
 }
 
-/* Estilo del formulario */
-form {
-/* Centrar formulario y dar separar entre los campos de info */
-    margin: 0 auto;
-    width: 70%;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Amatic SC'; 
-    font-weight: bolder;
+main button {
+  font-size: 20px;
+  margin-top: 20pt;
+  font-family: 'Amatic SC';
 }
 
+main button:hover {
+  border-color: rgb(30, 122, 184); 
+  background-color: rgb(30, 122, 184);
+  color: white;
+}
 
+main input{
+  height: 20px;
+  width: 300px;
+}
+
+footer {
+  color: gainsboro;
+  text-align: center;
+  font-size: 10px;
+  width: 35%;
+  padding: 20pt;
+  margin: auto;
+}
+
+#window2, #window3, #window4{
+  display: none; 
+}

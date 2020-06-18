@@ -22,5 +22,19 @@
     "jest": "^24.9.0",
     "opener": "^1.5.1",
     "serve": "^11.0.0"
-  }
+  },
+  "description": "## Índice",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalejac/BOG001-card-validation.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/dalejac/BOG001-card-validation/issues"
+  },
+  "homepage": "https://github.com/dalejac/BOG001-card-validation#readme"
 }
