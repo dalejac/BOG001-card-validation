@@ -1,4 +1,5 @@
 # Tarjeta de crédito válida
+ <img src="https://user-images.githubusercontent.com/65794191/96667258-5753fa00-131e-11eb-904d-7136d5f72e9d.png" width=100px>
 
 ## Objetivos de aprendizaje:
 
