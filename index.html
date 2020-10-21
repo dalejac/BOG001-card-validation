@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bungee Shade" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Monsters University</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+
+        <section id="window1" class="container" >
+            
+            <header class="header1"> 
+                <img src="logo.png" alt="logo"/>
+                <h1 class="monstersUniversity">MONSTERS UNIVERSITY</h1>                          
+            </header>
+
+            <main> 
+                <h1>Bienvenid@ a nuestra página de inscripción <br>
+                ¡Donde podrás convertirte en el mejor asustador de todos!</h1>
+                
+                <form class="form" id="form">
+                    <p>Ingresa tu datos por favor:</p>
+                    <label for="user">Nombre:</label>
+                    <input type="text" name="name_user" id="user">
+                    <p>Programa:
+                        <select name="program">
+                            <option>- Selecciona el programa</option>
+                            <option>Programa de Sustos</option>
+                            <option>Matrícula de Horror</option>
+                            <option>Master de Terror</option>
+                        </select>
+                    </p>
+                </form>
+                             
+                <button type="button" id="continueButton" class="btn"> Inscribirse</button>
+                            
+            </main>
+            
+            <footer>
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
+                <br>
+                Reservados todos los derechos, Disney Entertainment
+                <br>
+                Monsters Inc Company
+            </footer>
+
+        </section> 
+            
+        
+        <section id="window2" class="container">
+            
+            <header class="header1"> 
+                <img src="logo.png" alt="logo"/>
+                <h1 class="monstersUniversity">MONSTERS UNIVERSITY</h1>                          
+            </header>
+                
+            <main>
+                <h1>Por favor, introduce el número de tu tarjeta
+                    <br>
+                    de crédito para validarlo:</h1>
+                <br>
+                <br>
+                <br>
+                <input type="number" name="creditCard1" id="inputNumber"/>
+                <br>
+                <br>
+                <br>
+                <button type="button" id="validationButton" class="btn">Validar</button>
+            </main>
+            
+            <footer>
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
+                <br>
+                Reservados todos los derechos, Disney Entertainment
+                <br>
+                Monsters Inc Company
+            </footer>
+             
+        </section>
+
+        <section id="window3" class="container">           
+            
+            <header class="header1"> 
+                <img src="logo.png" alt="logo"/>
+                <h1 class="monstersUniversity">MONSTERS UNIVERSITY</h1>                          
+            </header>
+
+            <main>
+                <h1 class="results">Tu tarjeta de crédito número:</h1>
+                <h2>es valida!
+                    <br>
+                     Puedes continuar tu proceso de inscripción </h2>
+                <button type="button" id="NextStep" class="btn">Continuar Inscripción</button>
+            </main>
+            
+
+            <footer>
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
+                <br>
+                Reservados todos los derechos, Disney Entertainment
+                <br>
+                Monsters Inc Company
+            </footer>
+        
+        </section>
+
+        <section id="window4" class="container">           
+            
+            <header class="header1"> 
+                <img src="logo.png" alt="logo"/>
+                <h1 class="monstersUniversity">MONSTERS UNIVERSITY</h1>                          
+            </header>
+
+            <main>
+                <h1 class="results">Tu tarjeta de crédito número:</h1>
+                <h2>no es valida!
+                    <br>
+                     Por favor revisa la información! </h2>
+                <button type="reset" id="tryAgain" class="btn">Intentar de nuevo</button>
+
+            </main>
+            
+
+            <footer>
+                © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel.
+                <br>
+                Reservados todos los derechos, Disney Entertainment
+                <br>
+                Monsters Inc Company
+            </footer>
+        
+        </section>
+        
+        <script src="index.js" type="module"> </script>
+       
+    </body>
+</html>

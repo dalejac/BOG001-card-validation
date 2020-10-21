@@ -1,0 +1,89 @@
+html { 
+  background: url(fondo.png) repeat center center fixed; 
+}
+
+html:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.5);
+}
+
+section {
+  width: 35%;
+  height: 85%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  border: solid black;
+  background-color:white;
+  border-radius: 50px;
+  flex: 100%;
+}
+
+header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+header {
+  /* position: center;
+  top: 1.5pc;
+  left: 10px; */
+  padding: 35pt 20pt 0pt 20pt;
+  text-align: center;
+  font-family: 'Amatic SC'; 
+  font-size: 20px;
+}
+
+.monstersUniversity {
+  font-family: 'Bungee Shade';
+  position: center;
+  font-size: 23px;
+}
+
+main {
+  text-align: center;
+  margin: auto;
+  padding: 10pt;
+  font-family: 'Amatic SC'; 
+}
+
+main h1, h2, p, form {
+  font-size: 18pt;
+}
+
+main button {
+  font-size: 20px;
+  margin-top: 20pt;
+  font-family: 'Amatic SC';
+}
+
+main button:hover {
+  border-color: rgb(30, 122, 184); 
+  background-color: rgb(30, 122, 184);
+  color: white;
+}
+
+main input{
+  height: 20px;
+  width: 300px;
+}
+
+footer {
+  color: gainsboro;
+  text-align: center;
+  font-size: 10px;
+  width: 35%;
+  padding: 20pt;
+  margin: auto;
+}
+
+#window2, #window3, #window4{
+  display: none; 
+}
